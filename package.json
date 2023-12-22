@@ -1,0 +1,36 @@
+{
+  "name": "cascadia",
+  "version": "1.0.0",
+  "description": "Style chaining app designed for packages uses Typescript and Javascript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahtrask/cascadia.git"
+  },
+  "keywords": [
+    "style",
+    "chaining",
+    "cascade",
+    "javascript",
+    "typescript",
+    "npm"
+  ],
+  "author": "Hannah Catherine Trask",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannahtrask/cascadia/issues"
+  },
+  "homepage": "https://github.com/hannahtrask/cascadia#readme",
+  "devDependencies": {
+    "@types/node": "^18.18.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=7"
+  }
+}
