@@ -1,6 +1,6 @@
 # Style Cascadia
 
-Style Cascadia is a simple utility for easily chaining multiple CSS style changes on an HTML element in Typescript.
+Style Cascadia is a simple utility for easily chaining multiple CSS style changes on an HTML element written in Typescript.
 
 ## Installation
 
@@ -19,7 +19,7 @@ and chain the styles you want to apply. Finally, call the `setStyle()` method to
 
 ```typescript
     const element: HTMLElement = document.getElementById('header')!;
-    cascade(element as HTMLElement)
+    styleChain(element)
         .setStyle('backgroundColor', 'red')
         .setStyle('color', 'white')
         .setStyle('fontSize', '20px')

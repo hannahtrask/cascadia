@@ -1,6 +1,6 @@
 {
   "name": "style-cascadia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Style chaining app designed for packages uses Typescript and Javascript",
   "author": "Hannah Catherine Trask <hctrask@gmail.com>",
   "main": "src/index.ts",
@@ -32,5 +32,6 @@
   "engines": {
     "node": ">=18",
     "npm": ">=7"
-  }
+  },
+  "dependencies": {}
 }
