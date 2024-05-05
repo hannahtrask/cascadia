@@ -7,9 +7,9 @@ Style Cascadia is a simple utility for easily chaining multiple CSS style change
 You can install Style Cascadia using npm or yarn:
 
 ```bash
-npm install cascadia
+npm install style-cascadia
 # or
-yarn add cascadia
+yarn add style-cascadia
 ```
 
 ## Implementation
