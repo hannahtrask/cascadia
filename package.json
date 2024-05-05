@@ -1,7 +1,8 @@
 {
-  "name": "cascadia",
+  "name": "style-cascadia",
   "version": "1.0.0",
   "description": "Style chaining app designed for packages uses Typescript and Javascript",
+  "author": "Hannah Catherine Trask <hctrask@gmail.com>",
   "main": "src/index.ts",
   "scripts": {
     "test": "npm run test"
@@ -18,7 +19,6 @@
     "typescript",
     "npm"
   ],
-  "author": "Hannah Catherine Trask",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hannahtrask/cascadia/issues"

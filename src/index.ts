@@ -1,12 +1,16 @@
-function StyleChain(element: HTMLElement) {
-    return new Proxy(this, {
-        get: function(target, property) {
-            return function(value) {
-                element.style[property] = value;
-                return target;
-            };
-        }
-    });
+class StyleChain {
+    private element: HTMLElement;
+
+    constructor(element: HTMLElement) {
+        this.element = element;
+    }
+
+    setStyle(property: any, value: any) {
+        this.element.style[property] = value;
+        return this;
+    }
 }
 
-module.exports = StyleChain;
+export function styleChain(element: HTMLElement) {
+    return new StyleChain(element);
+}
